@@ -1,0 +1,65 @@
+# Ignore all build and dependency-related files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Ignore IDE-specific files
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore JAR, WAR, ZIP files
+*.jar
+*.war
+*.zip
+*.tar.gz
+
+# Ignore temporary files
+*.tmp
+
+# Ignore compiled class files
+*.class
+
+# Ignore dependency folders for both sender and receiver
+sender/target/
+receiver/target/
+sender/.gradle/
+receiver/.gradle/
+sender/node_modules/
+receiver/node_modules/
